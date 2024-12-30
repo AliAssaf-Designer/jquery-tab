@@ -46,3 +46,18 @@ body{
         }
     }
 }
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        .tabs{
+            ul{
+                .list-item{
+                    padding: 15px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    
+}
