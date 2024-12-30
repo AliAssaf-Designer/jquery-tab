@@ -25,19 +25,19 @@ body{
             justify-content: space-around;
             align-items: center;
             margin-bottom: 20px;
-            li{
+            .list-item{
                 padding: 18px;
                 background-color: #dbe3e3;
                 cursor: pointer;
                 transition: all .4s ease-in;
             }
-            li:first-child{
+            .list-item:first-child{
                 border-radius: 15px 0 0 15px;
             }
-            li:last-child{
+            .list-item:last-child{
                 border-radius: 0 15px 15px 0;
             }
-            li:hover{
+            .list-item:hover{
                 background-color: cadetblue;
             }
             .active{
